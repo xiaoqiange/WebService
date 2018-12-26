@@ -1,0 +1,4 @@
+
+wsimport -s "src目录" -p “生成类所在包名” -keep “wsdl发布地址”
+
+wsimport -s G:\\workspace\\webService\\TheClient\\src -p com.hyan.client -keep http://localhost:9001/Service/ServiceHello?wsdl
